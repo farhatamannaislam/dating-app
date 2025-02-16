@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
     <!-- Favicon for all devices -->
-    <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" sizes="64x64 128x128 256x256">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +66,7 @@
                         <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link {% if request.path == '/about/' %}active{% endif %}" href="{% url 'about' %}">About</a>
+                        <a class="nav-link {% if request.path == 'profiles/matching/' %}active{% endif %}" href="{% url 'profiles:matching_profiles' %}">Sparks</a>
                     </li>
                     <li class="nav-item px-2">
                         <a class="nav-link {% if request.path == '/chat/' %}active{% endif %}" href="{% url 'chat' %}">Sparky Chat</a>
