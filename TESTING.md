@@ -120,7 +120,7 @@ The website was tested on various devices using Chrome DevTools and real-life de
 | Log in Link            | Click       | Redirect to sign in page                                | <mark>PASS</mark> |
 | Log out Link           | Click       | Redirect to log out page                                | <mark>PASS</mark> |
 | Hamburger Menu         | Click       | Render a dropdown menu of all links                     | <mark>PASS</mark> |
-| Footer Socials         | Click       | Redirect in a new tab to all respective media platforms | <mark></mark> |
+| Footer Socials         | Click       | Redirect in a new tab to all respective media platforms | <mark>PASS</mark> |
 | Register Link          | Display     | Render for non authenticated users                      | <mark>PASS</mark> |
 | Log in Link            | Display     | Render for non authenticated users                      | <mark>PASS</mark> |
 | Log out Link           | Display     | Render only if user is authenticated                    | <mark>PASS</mark> |
